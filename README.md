@@ -27,4 +27,7 @@ cd /vagrant
   1. http://localhost:8380/phpHelloWorld.php
   2. http://localhost:8380/pythonHelloWorld.py
   3. http://localhost:8480/ (note: you'll have to run 'node nodeHelloWorld.js' first)
-  
+9. A database called 'mydb' with user 'mydb' and password 'mydb' has been created, but more can be created as you wish. To access your MySQL database in the command line with full admin permissions:
+```
+sudo mysql
+```
