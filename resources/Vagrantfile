@@ -1,0 +1,28 @@
+
+Vagrant.configure(2) do |config|
+
+	config.vm.provider "virtualbox" do |vb|
+#		vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant", "1"]
+#		vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/current", "1"]
+#		vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
+		vb.name = "TriangleWebTech Dev Box"
+		vb.memory = 2048
+#		v.cpus = 2
+	end
+
+	# Use box
+	config.vm.box = "ubuntu/xenial64"
+
+	# Share port 80 with 8380 on the host machine
+	config.vm.network "forwarded_port", guest:80, host:8380
+	config.vm.network "forwarded_port", guest:8080, host:8480
+	
+	# specifically sync /var/www with /www in sibling folder
+	config.vm.synced_folder "../www", "/var/www", :owner => "vagrant", :group => "www-data", :mount_options => ["dmode=777","fmode=777"]
+
+	# Set things up
+	config.vm.provision "shell", run: "always", inline: "sudo iptables -I INPUT -p tcp -m tcp --dport 80 -j ACCEPT"
+	config.vm.provision :shell, :path => "../../resources/bootstrap.sh"
+	config.vm.network :private_network, ip: "192.168.12.10"
+	
+end
