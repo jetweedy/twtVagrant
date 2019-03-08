@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains scripts to set up a box for PHP, Python and/or NodeJS. You can install any or all of these programs in order to learn, play and even get started developing. It also has a very quick script for setting up MariaDB and creating a user and table called 'mydb' that can be accessed by each of these languages as needed.
+This folder contains scripts to set up a virtual machine for PHP, Python and/or NodeJS. You can install any or all of these programs in order to learn, play and even get started developing. It also has a very quick script for setting up MariaDB and creating a user and table called 'mydb' that can be accessed by each of these languages as needed.
 
 This is a work in progress, and posted for casual practice and development environments only. It is NOT recommended that you use this box to do any serious development or create actual hosted environments for production websites.
 
