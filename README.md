@@ -31,3 +31,40 @@ cd /vagrant
 ```
 sudo mysql
 ```
+
+
+# Learn from an Expert!
+
+Are you in the NC Triad or Triangle area? Want face-to-face instruction in a small-group setting with much more personal attention at a much lower cost? I charge $1,500 for 6-week crash courses totaling 72 hours. Hour-for-hour, it's about half the price of other local boot camp offerings, and more modular, saving you money on the things that you already know or aren't ready to learn yet. Instructional quality is top notch: I have years of experience teaching at the college level, a masters in the field, and over 15 years of hands-on experience doing this stuff myself.
+
+Learn more here: https://www.truewindtechnology.com/crash-courses/
+
+
+# Learn on your Own!
+
+## Web Design with HTML and CSS
+ - https://www.w3schools.com/html/html_intro.asp
+ - https://www.w3schools.com/css/css_intro.asp
+
+## JavaScript and Related Frameworks
+ - https://www.w3schools.com/js/js_intro.asp
+ - https://www.w3schools.com/jquery/jquery_intro.asp
+ - https://www.w3schools.com/angular/angular_intro.asp
+ - https://www.tutorialspoint.com/reactjs/reactjs_overview.htm
+
+## SQL for Databases
+ - https://www.w3schools.com/sql/sql_intro.asp
+ - https://www.tutorialspoint.com/mysql/mysql-introduction.htm
+ 
+## PHP and Related Frameworks
+ - https://www.w3schools.com/php/php_intro.asp
+ - https://www.tutorialspoint.com/laravel/
+ 
+## Python and Related Frameworks
+ - https://www.w3schools.com/python/python_intro.asp
+ - https://www.tutorialspoint.com/django/django_basics.htm
+
+## Node and Express
+ - https://www.w3schools.com/nodejs/nodejs_intro.asp
+ - https://www.tutorialspoint.com/expressjs/expressjs_overview.htm
+
