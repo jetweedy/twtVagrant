@@ -28,9 +28,9 @@ This is a work in progress, and posted for casual practice and development envir
     1. http://localhost:8380/pythonHelloWorld.py
     1. http://localhost:8480/ (note: you'll have to run 'node nodeHelloWorld.js' first)
 1. A database called 'mydb' with user 'mydb' and password 'mydb' has been created, but more can be created as you wish. To access your MySQL database in the command line with full admin permissions:
-  ```
-  sudo mysql
-  ```
+      ```
+      sudo mysql
+      ```
 1. If you'd like to connect using software on your host machine, you can do this via SSH. [Here are some instructions.](http://www.inanzzz.com/index.php/post/5o82/connecting-to-vagrant-mysql-server-with-mysql-workbench-in-host-machine)
   1. The following command, executed in the /vagrant/ folder in your host, will show you the settings you need to use:  
     ```
