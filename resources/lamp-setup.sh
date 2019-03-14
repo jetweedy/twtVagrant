@@ -8,7 +8,8 @@ sudo apt-get install -y libapache2-mod-php7.1
 sudo apt-get install -y php-pear
 sudo pecl install -y stats
 sudo apt-get install -y phpunit
-sudo apt-get install php7.1-imap && sudo apache2ctl graceful
+sudo apt-get install -y php7.1-imap
+sudo apache2ctl graceful
 sudo a2enmod proxy_fcgi setenvif
 sudo a2enconf php7.1-fpm
 sudo service apache2 restart

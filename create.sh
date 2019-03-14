@@ -32,7 +32,6 @@ cp ../../resources/nodeHelloWorld.js ./nodeHelloWorld.js
 cp ../../resources/pythonHelloWorld.py ./pythonHelloWorld.py
 cp ../../resources/phpHelloWorld.php ./phpHelloWorld.php
 
-<<COMMENT1
 ### Bring up vagrant
 vagrant up
 
@@ -41,12 +40,20 @@ echo "====================================================="
 echo " INSTRUCTIONS:"
 echo "====================================================="
 echo " Your machine is now ready."
-echo " Guest Port 80 is being forwarded to Host Port 8380, "
-echo " so here is the URL to access your site in your browser:"
+echo " Guest Port 80 is being forwarded to Host Port 8380. "
+echo " Guest Port 8080 is being forwarded to Host Port 8480. "
+echo " Once all setup scripts have run, you can access these demo pages: "
 echo ""
-echo " 			http://localhost:8380"
+echo " 			http://localhost:8380/phpHelloWorld.php"
 echo ""
-echo "Your web root is located at /var/www/html."
+echo " 			http://localhost:8380/pythonHelloWorld.py"
+echo ""
+echo "			# node /var/www/nodeHelloWorld.js";
+echo " 			http://localhost:8480/"
+echo ""
+echo "Your Apache web root is located at /var/www/html: "
+echo ""
+echo " 			http://localhost:8380/"
 echo ""
 echo "====================================================="
 echo "I am now ssh-ing into it."
