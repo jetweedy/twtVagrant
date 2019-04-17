@@ -1,4 +1,4 @@
-# Triangle Web Tech Vagrant Box
+# Development Vagrant Box
 
 ## Overview
 
