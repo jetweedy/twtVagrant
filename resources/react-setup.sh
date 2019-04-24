@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 
-
+cd /var/www
 sudo npx create-react-app preactice
-<<COMMENT2
 cd /var/www/preactice/src
 rm *
 echo "" > index.html
 echo "import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';" > index.js
-COMMENT2
 
 
 <<COMMENT1
