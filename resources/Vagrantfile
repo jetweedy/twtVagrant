@@ -17,6 +17,7 @@ Vagrant.configure(2) do |config|
 	# Share port 80 with 8380 on the host machine
 	config.vm.network "forwarded_port", guest:80, host:8380
 	config.vm.network "forwarded_port", guest:8080, host:8480
+	config.vm.network "forwarded_port", guest:3000, host:8300
 	
 	# specifically sync /var/www with /www in sibling folder
 	config.vm.synced_folder "../www", "/var/www", :owner => "vagrant", :group => "www-data", :mount_options => ["dmode=777","fmode=777"]

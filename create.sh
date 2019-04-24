@@ -31,6 +31,13 @@ cp ../../resources/setup.sql ./setup.sql
 cp ../../resources/nodeHelloWorld.js ./nodeHelloWorld.js
 cp ../../resources/pythonHelloWorld.py ./pythonHelloWorld.py
 cp ../../resources/phpHelloWorld.php ./phpHelloWorld.php
+cp ../../resources/package.json ./package.json
+cp ../../resources/webpack.config.js ./webpack.config.js
+cp ../../resources/react-index.html ./react-index.html
+cp ../../resources/react-App.js ./react-App.js
+cp ../../resources/react-main.js ./react-main.js
+cp ../../resources/.babelrc ./.babelrc
+
 
 ### Bring up vagrant
 vagrant up
