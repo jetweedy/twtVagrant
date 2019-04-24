@@ -35,6 +35,7 @@ This is a work in progress, and posted for casual practice and development envir
       ```
       vagrant ssh-config
       ```
+1. If you're interested in using React, and you're on a Windows machine, make sure you run the cmd prompt as Administrator (right-click, "run as administrator") in order to run the ./vagrantUp.sh script so that you can bypass some restrictions on creating symlinks when running react-setup.sh. Once it runs, you should be able to visit https://localhost:8300 in your local browser to view it running on port 3000 in your VM.
 
 # Learn on your Own!
 
