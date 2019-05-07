@@ -70,7 +70,7 @@ This is a work in progress, and posted for casual practice and development envir
 
 # Learn from Me!
 
-Are you in the NC Triad or Triangle area? Want face-to-face instruction in a small-group setting with much more personal attention at a much lower cost? I charge $1,500 for 6-week crash courses totaling 72 hours. Hour-for-hour, it's about half the price of other local boot camp offerings. More importantly, it's more modular and focused, saving you money on the things that you already know or aren't ready to learn yet. Instructional quality is top notch: I have years of experience teaching at the college level, a masters in the field, and over 15 years of hands-on experience doing this stuff myself.
+Are you in the NC Triad or Triangle area? Want face-to-face instruction in an indivual or small-group setting with much more personal attention at a much lower cost? I charge $60 per hour for individual tutoring, or as little as $40 per hour for longer commitments. That's about half the price of other local boot camp offerings like UNC Boot Camp. More importantly, it's more modular and focused, saving you money on the things that you already know or aren't ready to learn yet. Instructional quality is top notch: I have years of experience teaching at the college level, a masters in the field, and over 15 years of hands-on experience doing this stuff myself.
 
 Learn more here: https://www.truewindtechnology.com/crash-courses/
 
