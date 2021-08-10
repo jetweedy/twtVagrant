@@ -16,7 +16,7 @@ fi
 cd box/vagrant
 
 ## Init vagrant within /vagrant
-vagrant init ubuntu/xenial64
+vagrant init ubuntu/focal64
 
 ## Copy some resources to /vagrant for use in provision
 cp ../../resources/Vagrantfile ./Vagrantfile
