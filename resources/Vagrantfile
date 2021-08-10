@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
 	# Use box
 #	config.disksize.size = '20GB'
-	config.vm.box = "ubuntu/bionic64"
+	config.vm.box = "ubuntu/focal64"
 
 	# Share port 80 with 8380 on the host machine
 	config.vm.network "forwarded_port", guest:80, host:8380
