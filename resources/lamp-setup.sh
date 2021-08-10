@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
+## https://www.tecmint.com/install-php-8-on-ubuntu/
 
 # INSTALL PHP
-echo "\n" | sudo apt-add-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install -y php7.4 php7.4-fpm php7.4-cli php7.4-common php7.4-mbstring php7.4-gd php7.4-intl php7.4-xml php7.4-mysql php7.4-zip php7.4-sqlite3 php7.4-curl php-pear php7.4-dev libapache2-mod-php7.4
+sudo apt-get upgrade
+sudo apt install  ca-certificates apt-transport-https software-properties-common
+echo "\n" | sudo apt-add-repository ppa:ondrej/php
+sudo apt update
+sudo apt install -y php8.0 libapache2-mod-php8.0
 
 # INSTALL APACHE
 sudo apt-get install apache2 -y
