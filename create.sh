@@ -19,6 +19,7 @@ cd box/vagrant
 vagrant init ubuntu/focal64
 
 ## Copy some resources to /vagrant for use in provision
+cp ../../resources/000-default.conf ./000-default.conf
 cp ../../resources/Vagrantfile ./Vagrantfile
 cp ../../resources/apache2.conf ./apache2.conf
 cp ../../resources/apache-setup.sh ./apache-setup.sh
