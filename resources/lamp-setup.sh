@@ -12,9 +12,11 @@ sudo apt install -y php8.0 libapache2-mod-php8.0
 sudo apt install libapache2-mod-php php-mysql
 sudo apt-get install -y php-pear
 
+
 # INSTALL APACHE
 sudo apt-get install apache2 -y
 sudo a2enmod rewrite
+#sudo mv /vagrant/000-default.conf /etc/apache/sites-enabled/000-default.conf
 sudo service apache2 restart
 
 # INSTALL MSQL
