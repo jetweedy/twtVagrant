@@ -1,0 +1,8 @@
+
+
+sudo vboxmanage list vms
+sudo VBoxManage unregistervm --delete "___"
+sudo vagrant global-status --prune
+sudo vagrant global-status
+sudo vagrant destroy [some-id-from-that-list]
+
