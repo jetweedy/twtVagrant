@@ -12,6 +12,7 @@ sudo dos2unix /vagrant/apache-setup.sh
 sudo dos2unix /vagrant/lamp-setup.sh
 sudo dos2unix /vagrant/python-setup.sh
 sudo dos2unix /vagrant/react-setup.sh
+sudo dos2unix /vagrant/pythonHelloWorld.py
 
 #sudo bash /vagrant/mariadb-setup.sh
 #sudo bash /vagrant/node-setup.sh

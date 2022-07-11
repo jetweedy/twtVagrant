@@ -13,5 +13,7 @@ sudo apt install -y python3-mysqldb
 
 sudo service apache2 restart
 
+## https://stackoverflow.com/questions/44871139/how-do-i-run-python-cgi-script-on-apache2-server-on-ubuntu-16-04
+
 cp /vagrant/pythonHelloWorld.py /var/www/html/pythonHelloWorld.py
 
