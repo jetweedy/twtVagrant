@@ -17,6 +17,7 @@ Vagrant.configure(2) do |config|
 	end
 
 	# Use box
+	config.vm.boot_timeout = 1200
 	config.vm.box = "ubuntu/focal64"
 
 	# Share port 80 with 8383 on the host machine
